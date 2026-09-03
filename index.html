@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Americo Silva | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+
+  <header class="top-bar">
+    <div class="brand">
+      <label for="nav-toggle" class="menu-pancake" title="Open sidebar" aria-label="Open sidebar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <a href="#home" class="brand-name">Americo Silva</a>
+    </div>
+  </header>
+
+  <!-- Hover the left edge or click the menu icon to open the slide-over sidebar -->
+  <div class="side-nav-zone">
+    <div class="side-nav-hit" aria-hidden="true"></div>
+    <aside class="side-nav" aria-label="Main navigation">
+      <div class="side-nav-header">
+        <p class="side-nav-title">Sidebar</p>
+      </div>
+      <nav>
+        <ul class="side-nav-list">
+          <li><a href="#home"><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a></li>
+          <li><a href="#about"><i class="fa-solid fa-user" aria-hidden="true"></i> About</a></li>
+          <li><a href="#skills"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> Skills</a></li>
+          <li><a href="#projects"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Projects</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+  <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <h1>Americo Silva</h1>
+        <p class="tagline">unskippable cutscene</p>
+      </div>
+      <div class="hero-panel" aria-hidden="true">
+        <div class="hero-orb hero-orb-one"></div>
+        <div class="hero-orb hero-orb-two"></div>
+        <div class="hero-card-stack">
+          <div class="mini-card mint"></div>
+          <div class="mini-card purple"></div>
+          <div class="mini-card blue"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Bio -->
+    <section id="about" class="section about">
+      <div class="section-heading">
+        <h2>About</h2>
+      </div>
+      <div class="about-card">
+        <img
+          class="about-avatar"
+          src="images/profile.jpg"
+          alt="Portrait of Americo Silva"
+          width="80"
+          height="80"
+        >
+        <div class="about-text">
+          <h3>Hello, I'm Americo</h3>
+          <p>
+            I aspire to be a developer that makes great things that make people happy.
+            Through this medium I want to create software that embodies the art I love
+            and impact others in kind.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="section-heading">
+        <h2>Skills</h2>
+        <p>Tools currently unlocked in my inventory.</p>
+      </div>
+      <ul class="skills-grid">
+        <li class="skill-card">
+          <i class="fa-brands fa-html5" aria-hidden="true"></i>
+          <span>HTML</span>
+        </li>
+        <li class="skill-card">
+          <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+          <span>CSS</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-letter" aria-hidden="true">C</span>
+          <span>C</span>
+        </li>
+        <li class="skill-card">
+          <i class="fa-brands fa-unity" aria-hidden="true"></i>
+          <span>Unity</span>
+        </li>
+        <li class="skill-card">
+          <img class="skill-logo" src="https://cdn.simpleicons.org/godotengine/478CBF" alt="" width="36" height="36">
+          <span>Godot</span>
+        </li>
+        <li class="skill-card">
+          <i class="fa-brands fa-python" aria-hidden="true"></i>
+          <span>Python</span>
+        </li>
+        <li class="skill-card">
+          <i class="fa-brands fa-java" aria-hidden="true"></i>
+          <span>Java</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="section-heading">
+        <h2>Projects</h2>
+      </div>
+      <div class="project-row">
+        <article class="project-card accent-mint">
+          <div class="project-art">
+            <i class="fa-solid fa-cube" aria-hidden="true"></i>
+          </div>
+          <h3>Placeholder 1</h3>
+          <p>Coming soon — course project slot one.</p>
+        </article>
+        <article class="project-card accent-purple">
+          <div class="project-art">
+            <i class="fa-solid fa-palette" aria-hidden="true"></i>
+          </div>
+          <h3>Placeholder 2</h3>
+          <p>Coming soon — course project slot two.</p>
+        </article>
+        <article class="project-card accent-blue">
+          <div class="project-art">
+            <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+          </div>
+          <h3>Placeholder 3</h3>
+          <p>Coming soon — course project slot three.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <h2>Contact</h2>
+        <p>Find me on the network.</p>
+      </div>
+      <div class="contact-row">
+        <a class="contact-card" href="https://github.com/deejayprostack" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a class="contact-card" href="https://backloggd.com/u/deejay189/" target="_blank" rel="noopener noreferrer">
+          <img class="contact-logo" src="images/backloggd.svg" alt="" width="28" height="28">
+          <span>Backloggd</span>
+        </a>
+        <a class="contact-card" href="https://letterboxd.com/deejay189/" target="_blank" rel="noopener noreferrer">
+          <img class="contact-logo" src="images/letterboxd.svg" alt="" width="28" height="28">
+          <span>Letterboxd</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Americo Silva · Built for Web Development</p>
+  </footer>
+</body>
+</html>
